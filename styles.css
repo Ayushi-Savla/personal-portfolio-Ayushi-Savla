@@ -28,10 +28,12 @@ nav ul li a {
 nav ul li a.active,
 nav ul li a:hover {
   background-color: #555;
+  text-emphasis-color: green;
+  text-underline-position: below;
 }
 
 header, section {
-  background: white;
+  background: lightgray;
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
